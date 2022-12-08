@@ -241,6 +241,7 @@ function LibraryUI() {
             name="isbn"
             label="Search by isbno"
             value={isbnNo}
+            onKeyPress={submitEvent}
             onChange={e=>setIsbnNo(e.target.value)}
             />
             </Grid>
