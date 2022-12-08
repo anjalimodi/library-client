@@ -1,8 +1,18 @@
-Library Front end
 
-To run it locally,
 
-1) clone the repository
-2)npm start
+## Installation
 
-API response can be seen in console of browser
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm start
+
+# production mode
+$ npm run build
+```
+
