@@ -176,6 +176,14 @@ function LibraryUI() {
       setMagazinePublishAt('')
       setMagazineExport(false)
       setMagazineCSVData([])
+      setShowMagazineTable(false)
+      setMagazineData([])
+      setShowBooksTable(false)
+      setBooksData([])
+      setShowIsbnResult(false)
+      setIsbnResult({})
+      setShowAuthor(false)
+      setAuthorRes([])
     }
 
     const createMagazine=(e)=>{
@@ -188,6 +196,14 @@ function LibraryUI() {
       setBookDescription('')
       setBookData([])
       setBookExport(false)
+      setShowMagazineTable(false)
+      setMagazineData([])
+      setShowBooksTable(false)
+      setBooksData([])
+      setShowIsbnResult(false)
+      setIsbnResult({})
+      setShowAuthor(false)
+      setAuthorRes([])
     }
 
     const submitBook=(e)=>{
